@@ -1,3 +1,5 @@
+// DataBase Schema for InBound 
+
 const mongoose = require('mongoose')
 const validator = require('validator')
 
