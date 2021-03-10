@@ -1,11 +1,11 @@
 const express = require('express')
 require('./db/mongoose')
-const outBoundRoute = require('./routers/bound')
+const bound = require('./routers/bound')
 
 
 const app = express()
 
 app.use(express.json())
-app.use(outBoundRoute)
+app.use(bound)
 
 module.exports= app
